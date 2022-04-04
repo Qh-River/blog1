@@ -1,8 +1,49 @@
 
+/*按键大小*/
+.m-padded-mini{
+    padding: 0.2em !important;
+}
+
+.m-padded-tiny{
+    padding: 0.3em !important;
+}
+
 .m-padded-tb-mini{
     padding-top: 0.2em !important;
     padding-bottom: 0.2em !important;
 }
+.m-padded-tb-tiny{
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+}
+.m-padded-tb-small{
+    /* padding: 描述的是内边距的意思
+
+       padding top用法：padding-top:10px; 这个意思距离顶边补距10像素，
+       可跟百分比如(padding-top:10%; 距离顶边补10%的距离)；
+
+       padding bottom用法：padding-bottom:10px; 这个意思距离低边补距10像素，
+       可跟百分比如(padding-bottom:10%; 距离底边补10%的距离)；*/
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+.m-padded-tb-tb{
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+}
+.m-padded-tb-large{
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+.m-padded-tb-big{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+.m-padded-tb-huge{
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+}
+
 .m-padded-tb-massive{
     padding-top: 5em !important;
     padding-bottom: 5em !important;
@@ -26,4 +67,9 @@
 /*透明度*/
 .m-opacity-mini{
     opacity: 0.8 !important;
+}
+
+/*---------display-------*/
+.m-inline-block{
+    display: inline-block !important;
 }
